@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="" lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>spyria</title>
+    <!--  CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- JQUERY -->
+    <script src="./jquery/dist/jquery-3.4.1.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap/dist/js/bootstrap.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <div class="container-fluid d-flex justify-content-around align-items-center">
+                <div class="logo">
+                    <img src="./assets/img/logo-branca.svg">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <a href="#sobre">QUEM SOMOS</a>
+                        <a href="#time">EQUIPE</a>
+                        <a href="#contato">CONTATO</a>
+                    </nav>
+                </div>
+                <div class="social">
+                    <img src="./assets/img/facebook.svg">
+                    <img src="./assets/img/instagram-logo.svg">
+                    <img src="./assets/img/twitter.svg">
+                </div> 
+            </div>
+        </div>
+        <div id="header-mobile">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="logo">
+                    <img src="./assets/img/Grupo 157.svg">
+                </div>
+                <div class="menu-mobile">
+                    <div class="menu-mobile-fechado">
+                        <nav class="navbar">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="material-icons text-white">menu</i>
+                            </button>
+                        </nav>
+                    </div>
+                    <div class="menu-mobile-aberto">    
+                        <div class="collapse" id="navbarToggleExternalContent">
+                            <nav class="d-flex flex-column">
+                                <a href="#sobre">QUEM SOMOS</a>
+                                <a href="#time">EQUIPE</a>
+                                <a href="#contato">CONTATO</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="banner">
+        <div class="container-fluid interno">
+            <p>Simples.</p>
+            <p>Sofisticado.</p>
+            <p>Todo seu.</p>
+            <button>CONHEÇA NOSSO TIME</button>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex" id="sobre">
+        <img src="./assets/img/sobre.png">
+        <div class="texto">
+            <p>Sobre a Spyria</p>
+            <div class="linhaAmarela"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Phasellus at vulputate augue. Suspendisse placerat dui sit amet enim sodales luctus. Donec neque mauris, pretium sed maximus pretium, elementum non tellus. Nulla id velit.</p>
+        </div>
+    </div>
+
+    <div id="time">
+        <img id="quadrados" src="./assets/img/quadrados.svg">
+        <div class="container-fluid">
+            <div class="topico">
+                <span>Nosso time</span>
+                <div class="linhaAmarela"></div>
+            </div>
+            <div class="d-flex justify-content-center abas">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item aba">
+                        <a class="nav-link"  id="pills-novaiorque-tab" data-toggle="pill" href="#pills-novaiorque" role="tab" aria-controls="pills-novaiorque" aria-selected="false">NOVA IORQUE</a>
+                    </li>
+                    <li class="nav-item aba">
+                        <a class="nav-link" id="pills-oslo-tab" data-toggle="pill" href="#pills-oslo" role="tab" aria-controls="pills-oslo" aria-selected="false">OSLO</a>
+                    </li>
+                    <li class="nav-item aba">
+                        <a class="nav-link active" id="pills-recife-tab" data-toggle="pill" href="#pills-recife" role="tab" aria-controls="pills-recife" aria-selected="true">RECIFE</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade" id="pills-novaiorque" role="tabpanel" aria-labelledby="pills-novaiorque-tab">
+                    <div class="d-flex justify-content-center slider">
+                        <div class="carousel responsive">
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide1.png">
+                                <div class="tag">
+                                    <p>CLARISE DESIRÉ</p>
+                                    <p>+55 81 9 8801.0174
+                                    <br>clarise@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide2.png">
+                                <div class="tag">
+                                    <p>JAMMIL GOULHENGR</p>
+                                    <p>+55 81 9 9250.4502
+                                    <br>jammil@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide3.png">
+                                <div class="tag">
+                                    <p>CARRIE DANNING</p>
+                                    <p>+55 81 9 9944.8112
+                                    <br>carrie@spyria.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-oslo" role="tabpanel" aria-labelledby="pills-oslo-tab">
+                    <div class="d-flex justify-content-center slider">
+                        <div class="carousel responsive">
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide4.png">
+                                <div class="tag">
+                                    <p>OLIVIA MORNA</p>
+                                    <p>+55 81 9 8801.0174
+                                    <br>olivia@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide5.png">
+                                <div class="tag">
+                                    <p>DOUGLAS MURT</p>
+                                    <p>+55 81 9 9250.4502
+                                    <br>douglas@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide6.png">
+                                <div class="tag">
+                                    <p>DANIEL DARLIE</p>
+                                    <p>+55 81 9 9944.8112
+                                    <br>daniel@spyria.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show active" id="pills-recife" role="tabpanel" aria-labelledby="pills-recife-tab">
+                    <div class="d-flex justify-content-center slider">
+                        <div class="carousel responsive">
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide7.png">
+                                <div class="tag">
+                                    <p>ADONIS SILVA</p>
+                                    <p>+55 81 9 9250.4502
+                                    <br>adonis@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide8.png">
+                                <div class="tag">
+                                    <p>CLARA SOUZA</p>
+                                    <p>+55 81 9 9944.8112
+                                    <br>clara@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide9.png">
+                                <div class="tag">
+                                    <p>DÊNIS TENÓRIO</p>
+                                    <p>+55 81 9 8801.0174
+                                    <br>denis@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide8.png">
+                                <div class="tag">
+                                    <p>CLARA SOUZA</p>
+                                    <p>+55 81 9 9944.8112
+                                    <br>clara@spyria.com.br</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="./assets/img/carrossel/slide7.png">
+                                <div class="tag">
+                                    <p>ADONIS SILVA</p>
+                                    <p>+55 81 9 9250.4502
+                                    <br>adonis@spyria.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex" id="contato">
+        <div class="mensagem">
+            <div class="titulo">
+                <p>Se interessou pelos nossos serviços?
+                <br>Manda uma mensagem pra gente. :)</p>
+            </div>
+            <div class="formulario">
+                <form>
+                    <div>
+                        <label for="nome">NOME</label>
+                        <input type="text" name="" class="form-control" id="nome">
+                    </div>
+                    <div>
+                        <label for="telefone">TELEFONE</label>
+                        <input type="text" name="" class="form-control" id="telefone">
+                    </div>
+                    <div>
+                        <label for="email">E-MAIL</label>
+                        <input type="email" name="" class="form-control" id="email">
+                    </div>
+                    <div>
+                        <label for="msg">MENSAGEM</label>
+                        <textarea class="form-control" id="msg" rows="5"></textarea>
+                    </div>
+                    <button>ENVIAR</button>
+                </form>
+            </div>
+        </div>
+        <div class="localizacao">
+            <div class="margem">
+                <p>Você também pode nos fazer uma visita.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/img/localizacao.png">
+            </div>
+            <div class="margem endereco">
+                <span><i class="material-icons">room</i></span>
+                <span>R. Hermílio Arantes, 1040 - Vila dos Coqueiros.<br>Petrolina. - PE.</span>
+            </div>
+            <div class="margem">
+                <button>TRAÇAR ROTA</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="d-flex justify-content-around bloco1">
+                <div class="">
+                    <img id="logo-cinza" src="./assets/img/logo-cinza.svg">
+                </div>
+                <div class="">
+                    <p>+55 (87) 3312.4057
+                    <br>contato@spyria.com.br</p>
+                </div>
+                <div class="">
+                    <p>Av. das Libélulas, 1228. Campos de Jordão.
+                    <br>Petrolina - PE. 54.457-092</p>
+                </div>
+            </div>
+            <div>
+                <div class="linha"></div>
+            </div>
+            <div class="textoLegal">
+                <p>Spyria Housing - Copyright 2019 © Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<!-- Slick JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+</body>
+
+</html>
