@@ -459,7 +459,7 @@ footer p{
 	#time .abas .aba a{
 		font-size: 13px;
 	}
-	#time .abas .aba a:focus{
+	#time .abas .aba .active{
 		font-size: 13px;
 	}
 	#contato .localizacao img{
@@ -483,7 +483,7 @@ footer p{
 	#time .abas .aba a{
 		font-size: 11px;
 	}
-	#time .abas .aba a:focus{
+	#time .abas .aba .active{
 		font-size: 11px;
 	}
 }
