@@ -245,6 +245,8 @@ header{
 	background-color: transparent;
 	border: 2px solid #24BEC6;
 	border-radius: 0;
+	word-break: keep-all;
+	white-space: nowrap;
 }
 
 #contato .localizacao{
@@ -289,6 +291,8 @@ header{
 	background-color: transparent;
 	border: 2px solid #fff;
 	border-radius: 0;
+	word-break: keep-all;
+	white-space: nowrap;
 }
 
 #logo-cinza path{
