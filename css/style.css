@@ -247,6 +247,7 @@ header{
 	border-radius: 0;
 	word-break: keep-all;
 	white-space: nowrap;
+	text-align: center;
 }
 
 #contato .localizacao{
@@ -293,6 +294,7 @@ header{
 	border-radius: 0;
 	word-break: keep-all;
 	white-space: nowrap;
+	text-align: center;
 }
 
 #logo-cinza path{
